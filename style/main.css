@@ -13,8 +13,7 @@ body {
   margin: 80px 0; }
 
 p.learn {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 span.tile-text {
@@ -200,7 +199,7 @@ hr {
   100% {
     margin-top: 20%; } }
 .game-container {
-  margin-top: 40px;
+  margin-top: 20px;
   position: relative;
   padding: 15px;
   cursor: default;
@@ -406,37 +405,37 @@ hr {
     font-size: 16px; 
     color: #354b59;}
   .tile.tile-2 .tile-inner {
-    background: url('../tile-sets/udacity/2.png');
+    background: url('../tile-sets/presidents/2.jpg');
     background-size: 100%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: url('../tile-sets/udacity/4.png');
+    background: url('../tile-sets/presidents/4.jpg');
     background-size: 100%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    background: url('../tile-sets/udacity/8.png');
+    background: url('../tile-sets/presidents/8.jpg');
     background-size: 100%;
     color: rgba(0,0,0,0);
     font-weight: medium;
     font-size: 11px;
   }
   .tile.tile-16 .tile-inner {
-    background: url('../tile-sets/udacity/16.png');
+    background: url('../tile-sets/presidents/16.jpg');
     background-size: 100%;
     color: rgba(0,0,0,0);
     font-weight: medium;
     font-size: 10px;
   }
   .tile.tile-32 .tile-inner {
-    background: url('../tile-sets/udacity/32.png');
+    background: url('../tile-sets/presidents/32.jpg');
     background-size: 100%;
     color: rgba(0,0,0,0);
     font-size: 14px;
   }
   .tile.tile-64 .tile-inner {
-    background: url('../tile-sets/udacity/64.png');
+    background: url('../tile-sets/presidents/64.jpg');
     background-size: 100%;
     color: rgba(0,0,0,0);
     font-size: 14px;
@@ -444,7 +443,7 @@ hr {
   }
   .tile.tile-128 .tile-inner {
     font-weight: medium;
-    background: url('../tile-sets/udacity/128.png');
+    background: url('../tile-sets/presidents/128.jpg');
     background-size: 100%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
@@ -453,7 +452,7 @@ hr {
       .tile.tile-128 .tile-inner {
         font-size: 12px; } }
   .tile.tile-256 .tile-inner {
-    background: url('../tile-sets/udacity/256.png');
+    background: url('../tile-sets/presidents/256.jpg');
     background-size: 100%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
@@ -462,7 +461,7 @@ hr {
       .tile.tile-256 .tile-inner {
         font-size: 16px; } }
   .tile.tile-512 .tile-inner {
-    background: url('../tile-sets/udacity/512.png');
+    background: url('../tile-sets/presidents/512.jpg');
     background-size: 100%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
@@ -471,7 +470,7 @@ hr {
       .tile.tile-512 .tile-inner {
         font-size: 13px; } }
   .tile.tile-1024 .tile-inner {
-    background: url('../tile-sets/udacity/1024.png');
+    background: url('../tile-sets/presidents/1024.jpg');
     background-size: 100%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
@@ -480,16 +479,16 @@ hr {
       .tile.tile-1024 .tile-inner {
         font-size: 10px; } }
   .tile.tile-2048 .tile-inner {
-    background: url('../tile-sets/udacity/2048.png');
-    background-size: 100%;
-    color: rgba(0,0,0,0);
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    background: url('../tile-sets/presidents/2048.jpg');
+    background-size: 50%;
+    color: rgba(0,0,2,0);
+    box-shadow: 0 0 30px 10px rgba(243, 215, 250, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 10px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
         font-size: 10px; } }
   .tile.tile-super .tile-inner {
-    color: #f9f6f2;
+    color: #f9f6f8;
     background: #3c3a32;
     font-weight: medium;
     font-size: 12px; }
@@ -645,7 +644,7 @@ hr {
     margin-bottom: 10px; }
 
   .game-intro {
-    width: 55%;
+    width: 100%;
     display: block;
     box-sizing: border-box;
     line-height: 1.65; }
@@ -669,7 +668,7 @@ hr {
     -ms-user-select: none;
     -ms-touch-action: none;
     touch-action: none;
-    background: #bbada0;
+    background: #1e6477;
     border-radius: 6px;
     width: 280px;
     height: 280px;
@@ -971,7 +970,7 @@ a.learn, a.keep-playing-button {
   margin: 0 auto;
   margin-top: 5px;
   display: block;
-  width: 150px;
+  width: 200px;
   padding: 10px;
   text-align: center;
 }
@@ -993,6 +992,7 @@ a.learn:hover, a.keep-playing-button:hover, a.learn-low:hover {
   display: block;
   text-align: center;
   float: right; 
+  margin-top: 7px;
 }
 
 a.retry-button, a.learn-low {
